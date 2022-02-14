@@ -4,37 +4,41 @@
 package greeter;
 
 public final class GreeterProto {
-  private GreeterProto() {}
-  public static void registerAllExtensions(
-      com.google.protobuf.ExtensionRegistryLite registry) {
-  }
+    private GreeterProto() {
+    }
 
-  public static void registerAllExtensions(
-      com.google.protobuf.ExtensionRegistry registry) {
-    registerAllExtensions(
-        (com.google.protobuf.ExtensionRegistryLite) registry);
-  }
+    public static void registerAllExtensions(
+            com.google.protobuf.ExtensionRegistryLite registry) {
+    }
 
-  public static com.google.protobuf.Descriptors.FileDescriptor
-      getDescriptor() {
-    return descriptor;
-  }
-  private static  com.google.protobuf.Descriptors.FileDescriptor
-      descriptor;
-  static {
-    java.lang.String[] descriptorData = {
-      "\n\rgreeter.proto\022\007greeter\032\rmessage.proto2" +
-      "<\n\007Greeter\0221\n\010SayHello\022\020.greeter.Request" +
-      "\032\021.greeter.Response\"\000B\031\n\007greeterB\014Greete" +
-      "rProtoP\001b\006proto3"
-    };
-    descriptor = com.google.protobuf.Descriptors.FileDescriptor
-      .internalBuildGeneratedFileFrom(descriptorData,
-        new com.google.protobuf.Descriptors.FileDescriptor[] {
-          greeter.MessageProto.getDescriptor(),
-        });
-    greeter.MessageProto.getDescriptor();
-  }
+    public static void registerAllExtensions(
+            com.google.protobuf.ExtensionRegistry registry) {
+        registerAllExtensions(
+                (com.google.protobuf.ExtensionRegistryLite) registry);
+    }
 
-  // @@protoc_insertion_point(outer_class_scope)
+    public static com.google.protobuf.Descriptors.FileDescriptor
+    getDescriptor() {
+        return descriptor;
+    }
+
+    private static com.google.protobuf.Descriptors.FileDescriptor
+            descriptor;
+
+    static {
+        java.lang.String[] descriptorData = {
+                "\n\rgreeter.proto\022\007greeter\032\rmessage.proto2" +
+                        "<\n\007Greeter\0221\n\010SayHello\022\020.greeter.Request" +
+                        "\032\021.greeter.Response\"\000B\031\n\007greeterB\014Greete" +
+                        "rProtoP\001b\006proto3"
+        };
+        descriptor = com.google.protobuf.Descriptors.FileDescriptor
+                .internalBuildGeneratedFileFrom(descriptorData,
+                        new com.google.protobuf.Descriptors.FileDescriptor[]{
+                                greeter.MessageProto.getDescriptor(),
+                        });
+        greeter.MessageProto.getDescriptor();
+    }
+
+    // @@protoc_insertion_point(outer_class_scope)
 }

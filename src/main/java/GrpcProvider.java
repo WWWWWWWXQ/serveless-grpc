@@ -5,7 +5,8 @@ import java.io.IOException;
 
 public class GrpcProvider {
     private final Server server;
-    public GrpcProvider(int port){
+
+    public GrpcProvider(int port) {
         server = ServerBuilder.forPort(port).addService(new GreeterRpcService()).build();
     }
 
@@ -13,7 +14,7 @@ public class GrpcProvider {
         server.start();
     }
 
-    public void shutdown(){
+    public void shutdown() {
         server.shutdown();
     }
 }

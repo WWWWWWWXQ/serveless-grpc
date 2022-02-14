@@ -12,7 +12,7 @@ public class GrpcConsumer {
         this.blockingStub = GreeterGrpc.newBlockingStub(managedChannel);
     }
 
-    public String sayHello(String name){
+    public String sayHello(String name) {
         Request greeting = Request.newBuilder().setName(name).build();
         Response response = blockingStub.sayHello(greeting);
         return response.getMessage();
