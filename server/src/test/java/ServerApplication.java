@@ -1,13 +1,13 @@
 import java.io.IOException;
 
-public class TestDemo {
+public class ServerApplication {
     public static void main(String[] args) throws IOException {
         int port = 8000;
         GrpcProvider server = new GrpcProvider(port);
+        System.out.println("Server start!");
         server.start();
-        GrpcConsumer client = new GrpcConsumer("127.0.0.1", port);
-        String reply = client.sayHello("World");
-        System.out.println(reply);
+        System.in.read();
         server.shutdown();
+        System.out.println("Server shutdown!");
     }
 }

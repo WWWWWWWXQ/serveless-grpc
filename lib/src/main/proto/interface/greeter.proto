@@ -5,7 +5,7 @@ option java_package="greeter";
 option java_outer_classname = "GreeterProto";
 package greeter;
 
-import "message.proto";
+import "pojo/message.proto";
 
 service Greeter{
   rpc SayHello (Request) returns (Response) {}
