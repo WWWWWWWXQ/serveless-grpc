@@ -1,3 +1,5 @@
+package client;
+
 import greeter.GreeterGrpc;
 import greeter.Request;
 import greeter.Response;

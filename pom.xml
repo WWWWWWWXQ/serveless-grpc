@@ -39,9 +39,8 @@
         </plugins>
     </build>
     <modules>
-        <module>client</module>
-        <module>server</module>
-        <module>lib</module>
+        <module>grpc-lib</module>
+        <module>grpc-cmd</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="client" />
-        <module name="server" />
-        <module name="lib" />
+        <module name="grpc-lib" />
+        <module name="grpc-cmd" />
         <module name="provider" />
         <module name="consumer" />
       </profile>
@@ -16,7 +16,8 @@
     <bytecodeTargetLevel>
       <module name="client" target="8" />
       <module name="consumer" target="1.8" />
-      <module name="lib" target="8" />
+      <module name="grpc-cmd" target="8" />
+      <module name="grpc-lib" target="8" />
       <module name="provider" target="1.8" />
       <module name="serveless-grpc" target="8" />
       <module name="server" target="8" />
