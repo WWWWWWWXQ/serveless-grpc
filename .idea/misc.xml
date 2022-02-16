@@ -4,8 +4,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc-spring-boot/grpc-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc-spring-boot/grpc-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc-spring-boot/grpc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc-spring-boot/grpc-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
