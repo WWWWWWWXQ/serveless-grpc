@@ -11,7 +11,7 @@ public class GreeterGrpcImpl extends GreeterGrpc.GreeterImplBase {
     @Override
     public void sayHello(Request request, StreamObserver<Response> responseObserver) {
         String name = request.getName();
-        Response resp = Response.newBuilder().setMessage("Hello" + name + "!").build();
+        Response resp = Response.newBuilder().setMessage("Hello " + name + "!").build();
         responseObserver.onNext(resp);
         responseObserver.onCompleted();
     }
