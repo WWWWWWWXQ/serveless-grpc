@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>grpc-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>grpc-client</name>
-    <description>grpc-client</description>
+    <name>grpc-user</name>
+    <description>grpc-user</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package goblin;
+
+import "pojo/GoblinServiceEntity.proto";
+
+service GoblinService{
+  rpc SayHello (Request) returns (Response) {}
+}

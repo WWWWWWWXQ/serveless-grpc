@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/grpc-lib/grpc-lib.iml" filepath="$PROJECT_DIR$/grpc-lib/grpc-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/grpc-spring-boot/grpc-server/grpc-server.iml" filepath="$PROJECT_DIR$/grpc-spring-boot/grpc-server/grpc-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/grpc-spring-boot/grpc-spring-boot.iml" filepath="$PROJECT_DIR$/grpc-spring-boot/grpc-spring-boot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/grpc-spring-boot-nacos/grpc-spring-boot-nacos.iml" filepath="$PROJECT_DIR$/grpc-spring-boot-nacos/grpc-spring-boot-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/serveless-grpc.iml" filepath="$PROJECT_DIR$/.idea/serveless-grpc.iml" />
     </modules>
   </component>

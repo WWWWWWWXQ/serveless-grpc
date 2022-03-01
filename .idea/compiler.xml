@@ -12,7 +12,6 @@
         <module name="grpc-cmd" />
         <module name="grpc-spring-boot" />
         <module name="grpc-server" />
-        <module name="grpc-spring-boot-nacos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

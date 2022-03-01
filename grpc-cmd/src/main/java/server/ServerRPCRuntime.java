@@ -5,11 +5,11 @@ import io.grpc.ServerBuilder;
 
 import java.io.IOException;
 
-public class GrpcProvider {
+public class ServerRPCRuntime {
     private final Server server;
 
-    public GrpcProvider(int port) {
-        server = ServerBuilder.forPort(port).addService(new GreeterRpcService()).build();
+    public ServerRPCRuntime(int port) {
+        server = ServerBuilder.forPort(port).addService(new GoblinServiceImpl()).build();
     }
 
     public void start() throws IOException {
